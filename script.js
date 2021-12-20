@@ -14,4 +14,4 @@ let b= a
  const e = d //they point to same memory 0x1
  //if i mutate one, i mutate the other
  e.push(3)
- console.log(d)// [1,2,3] made change to 'e' but 'd' was effected too.  BC they share that memory pinter
+ console.log(d)// [1,2,3] made change to 'e' but 'd' was effected too.  BC they share that memory pointer
